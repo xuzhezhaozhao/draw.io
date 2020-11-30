@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T03:26:15.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="kwO1H5jOMp79fnaxOYKL" version="13.10.0" type="github"><diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">zVVdb9owFP01kbYHJBKnlD4SoGsfJk1qtWpPyMQ3iVU7Th0DYb9+17HzBUWa9jQekvjccz9tHwKyls03Taviu2IggmjOmoBsgihahgSfFjg7IL6LHZBrzhwUDsAL/w0enHv0wBnUE6JRShheTcFUlSWkZoJRrdVpSsuUmGataA5XwEtKxTX6xpkpHErIfD4YnoDnhU8dL5beZU/T91yrQ+kTBhHJ2p8zS9oF85HqgjJ1GkFkG5C1Vsq4L9msQdjZdnNzfo83rH3hGkrzNw71sj79eKgTec8qudzGHz9/vc0iF+VIxQG6NhYC4yWVLdmc/ZwWHwdbZyKpznkZkBVa51WDTwTbbi0+M6pytnhkM9CYGRU8934pFgx6iIlfuX+3mfkIoBIDJuJ69WxjZDSFHp66TCLiUPhllr2+QjrglUvQr7R+H/nvL9mIVZdYoe3QujPe9RfebvWfhiwgM6MpX8ae2T2308FN3dWAF4ftHB3R6+4t3RQaKNsZbNlR/RDLfW1ftWEWJSvH++8nEESW+1xy8+Wrox0VZ59tvOVtlN3qz5jTBqNJpdERtOGoIyt3sDft0U/8Md+4ChOFrEy0tz7jeBtJkqnSeBUMI79+pJILq59PII5go9pJGiksqc9tE0Jz8/KHvaSgVIOSYPQZKZ1D2Amu1+m7e78+DaoXPnisGAleGHuQeqXN++CD2OCH15tuOehaaxv9eZDtHw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-30T03:28:17.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="PwPIor5LdXzdikJKEoHw" version="13.10.0" type="github">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s8swP9sBm7dpm8E4qVYW-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TimerTask&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- interval_second_: int&lt;br&gt;- thread_task_:&amp;nbsp;std::thread&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Init(): void&lt;br&gt;+ DoTask(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;- Run(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;- Wait(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="100" width="170" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
