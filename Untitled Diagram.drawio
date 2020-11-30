@@ -1,38 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T03:53:23.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="UsrojOMFiVq_f38Fc1PO" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T04:20:18.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="2jQx3se6yBl3JK3LT4JQ" version="13.10.0" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s8swP9sBm7dpm8E4qVYW-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TimerTask&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- interval_second_: int&lt;br&gt;- thread_task_:&amp;nbsp;std::thread&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Start(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set_interval_second: void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# Init(): virtual void&lt;br&gt;# DoTask(): virtual void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;- Run(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;- Wait(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="160" width="170" height="180" as="geometry" />
+          <mxGeometry x="810" y="130" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ConfigurationManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- tars_objname_map_buffer_: map&amp;lt;string, Configuration&amp;gt;[2]&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- tars_objname_map_buffer_index_: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ Instance(): static ConfigurationManager&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Find(string): const Configuration*&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# DoTask(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- LoadConfiguration(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="460" width="340" height="140" as="geometry" />
+          <mxGeometry x="400" y="430" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ModelPuller&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Instance(): static ModelPuller&amp;amp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# DoTask(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- TryPullModel(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="460" width="190" height="110" as="geometry" />
+          <mxGeometry x="800" y="430" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ModelManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;base_model_buffer_: std::shared_ptr&amp;lt;BaseModel&amp;gt;[2]&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;base_model_buffer_index_: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- feature_center_buffer_:&amp;nbsp;FeatureCenterServicePrx[2]&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;-&amp;nbsp;feature_center_buffer_index_: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- model_desc_: ModelDesc&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- feature_center_desc_:&amp;nbsp;FeatureCenterDesc&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Instance(): static ModelManager&amp;amp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ base_model(): std::shared_ptr&amp;lt;BaseModel&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;feature_center(): FeatureCenterServicePrx&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;# DoTask(): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- TryUpdate(): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="460" width="320" height="210" as="geometry" />
+          <mxGeometry x="1050" y="430" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.503;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="81HPEaTfGhqs-HCypct7-1" target="s8swP9sBm7dpm8E4qVYW-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="520" y="430" as="sourcePoint" />
-            <mxPoint x="680" y="430" as="targetPoint" />
+            <mxPoint x="690" y="400" as="sourcePoint" />
+            <mxPoint x="850" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="81HPEaTfGhqs-HCypct7-7" target="s8swP9sBm7dpm8E4qVYW-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="530.4799999999999" y="470" as="sourcePoint" />
-            <mxPoint x="735" y="350" as="targetPoint" />
+            <mxPoint x="700.4799999999999" y="440" as="sourcePoint" />
+            <mxPoint x="905" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="81HPEaTfGhqs-HCypct7-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="81HPEaTfGhqs-HCypct7-11" target="s8swP9sBm7dpm8E4qVYW-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="800" y="480" as="sourcePoint" />
-            <mxPoint x="800" y="360" as="targetPoint" />
+            <mxPoint x="970" y="450" as="sourcePoint" />
+            <mxPoint x="970" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="81HPEaTfGhqs-HCypct7-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseMode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- model_type_: ModelType&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ model_type(): ModelType&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="800" width="170" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
